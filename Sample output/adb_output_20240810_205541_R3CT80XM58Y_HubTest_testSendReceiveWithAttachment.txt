@@ -1,0 +1,287 @@
+INSTRUMENTATION_STATUS: class=com.blackberry.spl.functionaltest.test.specific.HubTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.blackberry.spl.functionaltest.test.specific.HubTest:
+INSTRUMENTATION_STATUS: test=testSendReceiveWithAttachment
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.blackberry.spl.functionaltest.test.specific.HubTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=com.blackberry.spl.functionaltest.support.VerificationError: Unrecognized file selector.
+com.android.settings|android.widget.FrameLayout||
+. com.android.settings|android.widget.LinearLayout||
+.   com.android.settings|android.widget.FrameLayout||
+.     com.android.settings:id/action_bar_root|android.widget.LinearLayout||
+.       android:id/content|android.widget.FrameLayout||
+.         com.android.settings:id/content_parent|android.widget.LinearLayout||
+.           com.android.settings:id/coordinator|android.view.ViewGroup||
+.             com.android.settings:id/app_bar|android.widget.LinearLayout||
+.               com.android.settings:id/collapsing_app_bar|android.widget.FrameLayout||
+.                 com.android.settings:id/collapsing_appbar_title_layout_parent|android.widget.LinearLayout||
+.                   com.android.settings:id/collapsing_appbar_title_layout|android.widget.LinearLayout||
+.                     com.android.settings:id/collapsing_appbar_extended_title|android.widget.TextView|All files access|
+.                 com.android.settings:id/action_bar|android.view.ViewGroup||
+.                   com.android.settings|android.widget.ImageButton||Navigate up
+.                   com.android.settings|android.widget.TextView|All files access|
+.                   com.android.settings|androidx.appcompat.widget.LinearLayoutCompat||
+.             com.android.settings:id/round_corner_layout|android.widget.LinearLayout||
+.               com.android.settings:id/round_corner|android.view.View||
+.               com.android.settings:id/round_corner_start_pane|android.view.View||
+.               com.android.settings:id/round_corner_end_pane|android.view.View||
+.             com.android.settings:id/content_layout|android.widget.LinearLayout||
+.               com.android.settings:id/content_frame|android.widget.FrameLayout||
+.                 com.android.settings|android.widget.LinearLayout||
+.                   com.android.settings|android.widget.LinearLayout||
+.                     com.android.settings|android.widget.LinearLayout||
+.                     com.android.settings:id/main_content|android.widget.FrameLayout||
+.                       com.android.settings:id/container_material|android.widget.LinearLayout||
+.                         android:id/list_container|android.widget.FrameLayout||
+.                           com.android.settings:id/recycler_view|androidx.recyclerview.widget.RecyclerView||
+.                             com.android.settings|android.widget.FrameLayout||
+.                               com.android.settings:id/entity_header|android.widget.RelativeLayout||
+.                                 com.android.settings:id/entity_header_icon|android.widget.ImageView||
+.                                 com.android.settings|android.widget.LinearLayout||
+.                                   com.android.settings:id/entity_header_title|android.widget.TextView|BlackBerry Hub+ Services|
+.                                   com.android.settings:id/entity_header_summary|android.widget.TextView|2.2431.1-1.18.1-20243100 [41365]|
+.                             com.android.settings|android.widget.TextView||
+.                             com.android.settings|android.widget.LinearLayout||
+.                               com.android.settings|android.widget.LinearLayout||
+.                                 com.android.settings|android.widget.RelativeLayout||
+.                                   com.android.settings:id/title_frame|android.widget.RelativeLayout||
+.                                     android:id/title|android.widget.TextView|Allow permission|
+.                                 android:id/widget_frame|android.widget.LinearLayout||
+.                                   android:id/switch_widget|android.widget.Switch||
+.                             com.android.settings|android.widget.LinearLayout||
+.                               com.android.settings:id/title|android.widget.TextView|This app will be able to read, modify, and delete all files on this phone or any connected storage devices. If you allow this, the app may access files that aren't related to the app without notifying you.|
+.               com.android.settings:id/content_start_pane|android.widget.LinearLayout||
+.               com.android.settings:id/content_end_pane|android.widget.LinearLayout||
+. android:id/statusBarBackground|android.view.View||
+. android:id/navigationBarBackground|android.view.View||
+	at com.blackberry.spl.functionaltest.support.InteroperabilityUi.selectFile(InteroperabilityUi.java:261)
+	at com.blackberry.spl.functionaltest.support.specific.HubComposeEmailUi.setAttachments(HubComposeEmailUi.java:105)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.sendEmail(HubUi.java:120)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.sendEmail(HubUi.java:130)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.sendEmail(HubUi.java:173)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.testSendReceiveWithAttachment(HubTest.java:125)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:157)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:375)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2415)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testSendReceiveWithAttachment(com.blackberry.spl.functionaltest.test.specific.HubTest):
+com.blackberry.spl.functionaltest.support.VerificationError: Unrecognized file selector.
+com.android.settings|android.widget.FrameLayout||
+. com.android.settings|android.widget.LinearLayout||
+.   com.android.settings|android.widget.FrameLayout||
+.     com.android.settings:id/action_bar_root|android.widget.LinearLayout||
+.       android:id/content|android.widget.FrameLayout||
+.         com.android.settings:id/content_parent|android.widget.LinearLayout||
+.           com.android.settings:id/coordinator|android.view.ViewGroup||
+.             com.android.settings:id/app_bar|android.widget.LinearLayout||
+.               com.android.settings:id/collapsing_app_bar|android.widget.FrameLayout||
+.                 com.android.settings:id/collapsing_appbar_title_layout_parent|android.widget.LinearLayout||
+.                   com.android.settings:id/collapsing_appbar_title_layout|android.widget.LinearLayout||
+.                     com.android.settings:id/collapsing_appbar_extended_title|android.widget.TextView|All files access|
+.                 com.android.settings:id/action_bar|android.view.ViewGroup||
+.                   com.android.settings|android.widget.ImageButton||Navigate up
+.                   com.android.settings|android.widget.TextView|All files access|
+.                   com.android.settings|androidx.appcompat.widget.LinearLayoutCompat||
+.             com.android.settings:id/round_corner_layout|android.widget.LinearLayout||
+.               com.android.settings:id/round_corner|android.view.View||
+.               com.android.settings:id/round_corner_start_pane|android.view.View||
+.               com.android.settings:id/round_corner_end_pane|android.view.View||
+.             com.android.settings:id/content_layout|android.widget.LinearLayout||
+.               com.android.settings:id/content_frame|android.widget.FrameLayout||
+.                 com.android.settings|android.widget.LinearLayout||
+.                   com.android.settings|android.widget.LinearLayout||
+.                     com.android.settings|android.widget.LinearLayout||
+.                     com.android.settings:id/main_content|android.widget.FrameLayout||
+.                       com.android.settings:id/container_material|android.widget.LinearLayout||
+.                         android:id/list_container|android.widget.FrameLayout||
+.                           com.android.settings:id/recycler_view|androidx.recyclerview.widget.RecyclerView||
+.                             com.android.settings|android.widget.FrameLayout||
+.                               com.android.settings:id/entity_header|android.widget.RelativeLayout||
+.                                 com.android.settings:id/entity_header_icon|android.widget.ImageView||
+.                                 com.android.settings|android.widget.LinearLayout||
+.                                   com.android.settings:id/entity_header_title|android.widget.TextView|BlackBerry Hub+ Services|
+.                                   com.android.settings:id/entity_header_summary|android.widget.TextView|2.2431.1-1.18.1-20243100 [41365]|
+.                             com.android.settings|android.widget.TextView||
+.                             com.android.settings|android.widget.LinearLayout||
+.                               com.android.settings|android.widget.LinearLayout||
+.                                 com.android.settings|android.widget.RelativeLayout||
+.                                   com.android.settings:id/title_frame|android.widget.RelativeLayout||
+.                                     android:id/title|android.widget.TextView|Allow permission|
+.                                 android:id/widget_frame|android.widget.LinearLayout||
+.                                   android:id/switch_widget|android.widget.Switch||
+.                             com.android.settings|android.widget.LinearLayout||
+.                               com.android.settings:id/title|android.widget.TextView|This app will be able to read, modify, and delete all files on this phone or any connected storage devices. If you allow this, the app may access files that aren't related to the app without notifying you.|
+.               com.android.settings:id/content_start_pane|android.widget.LinearLayout||
+.               com.android.settings:id/content_end_pane|android.widget.LinearLayout||
+. android:id/statusBarBackground|android.view.View||
+. android:id/navigationBarBackground|android.view.View||
+	at com.blackberry.spl.functionaltest.support.InteroperabilityUi.selectFile(InteroperabilityUi.java:261)
+	at com.blackberry.spl.functionaltest.support.specific.HubComposeEmailUi.setAttachments(HubComposeEmailUi.java:105)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.sendEmail(HubUi.java:120)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.sendEmail(HubUi.java:130)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.sendEmail(HubUi.java:173)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.testSendReceiveWithAttachment(HubTest.java:125)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:157)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:375)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2415)
+
+INSTRUMENTATION_STATUS: test=testSendReceiveWithAttachment
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 78.008
+There was 1 failure:
+1) testSendReceiveWithAttachment(com.blackberry.spl.functionaltest.test.specific.HubTest)
+com.blackberry.spl.functionaltest.support.VerificationError: Unrecognized file selector.
+com.android.settings|android.widget.FrameLayout||
+. com.android.settings|android.widget.LinearLayout||
+.   com.android.settings|android.widget.FrameLayout||
+.     com.android.settings:id/action_bar_root|android.widget.LinearLayout||
+.       android:id/content|android.widget.FrameLayout||
+.         com.android.settings:id/content_parent|android.widget.LinearLayout||
+.           com.android.settings:id/coordinator|android.view.ViewGroup||
+.             com.android.settings:id/app_bar|android.widget.LinearLayout||
+.               com.android.settings:id/collapsing_app_bar|android.widget.FrameLayout||
+.                 com.android.settings:id/collapsing_appbar_title_layout_parent|android.widget.LinearLayout||
+.                   com.android.settings:id/collapsing_appbar_title_layout|android.widget.LinearLayout||
+.                     com.android.settings:id/collapsing_appbar_extended_title|android.widget.TextView|All files access|
+.                 com.android.settings:id/action_bar|android.view.ViewGroup||
+.                   com.android.settings|android.widget.ImageButton||Navigate up
+.                   com.android.settings|android.widget.TextView|All files access|
+.                   com.android.settings|androidx.appcompat.widget.LinearLayoutCompat||
+.             com.android.settings:id/round_corner_layout|android.widget.LinearLayout||
+.               com.android.settings:id/round_corner|android.view.View||
+.               com.android.settings:id/round_corner_start_pane|android.view.View||
+.               com.android.settings:id/round_corner_end_pane|android.view.View||
+.             com.android.settings:id/content_layout|android.widget.LinearLayout||
+.               com.android.settings:id/content_frame|android.widget.FrameLayout||
+.                 com.android.settings|android.widget.LinearLayout||
+.                   com.android.settings|android.widget.LinearLayout||
+.                     com.android.settings|android.widget.LinearLayout||
+.                     com.android.settings:id/main_content|android.widget.FrameLayout||
+.                       com.android.settings:id/container_material|android.widget.LinearLayout||
+.                         android:id/list_container|android.widget.FrameLayout||
+.                           com.android.settings:id/recycler_view|androidx.recyclerview.widget.RecyclerView||
+.                             com.android.settings|android.widget.FrameLayout||
+.                               com.android.settings:id/entity_header|android.widget.RelativeLayout||
+.                                 com.android.settings:id/entity_header_icon|android.widget.ImageView||
+.                                 com.android.settings|android.widget.LinearLayout||
+.                                   com.android.settings:id/entity_header_title|android.widget.TextView|BlackBerry Hub+ Services|
+.                                   com.android.settings:id/entity_header_summary|android.widget.TextView|2.2431.1-1.18.1-20243100 [41365]|
+.                             com.android.settings|android.widget.TextView||
+.                             com.android.settings|android.widget.LinearLayout||
+.                               com.android.settings|android.widget.LinearLayout||
+.                                 com.android.settings|android.widget.RelativeLayout||
+.                                   com.android.settings:id/title_frame|android.widget.RelativeLayout||
+.                                     android:id/title|android.widget.TextView|Allow permission|
+.                                 android:id/widget_frame|android.widget.LinearLayout||
+.                                   android:id/switch_widget|android.widget.Switch||
+.                             com.android.settings|android.widget.LinearLayout||
+.                               com.android.settings:id/title|android.widget.TextView|This app will be able to read, modify, and delete all files on this phone or any connected storage devices. If you allow this, the app may access files that aren't related to the app without notifying you.|
+.               com.android.settings:id/content_start_pane|android.widget.LinearLayout||
+.               com.android.settings:id/content_end_pane|android.widget.LinearLayout||
+. android:id/statusBarBackground|android.view.View||
+. android:id/navigationBarBackground|android.view.View||
+	at com.blackberry.spl.functionaltest.support.InteroperabilityUi.selectFile(InteroperabilityUi.java:261)
+	at com.blackberry.spl.functionaltest.support.specific.HubComposeEmailUi.setAttachments(HubComposeEmailUi.java:105)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.sendEmail(HubUi.java:120)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.sendEmail(HubUi.java:130)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.sendEmail(HubUi.java:173)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.testSendReceiveWithAttachment(HubTest.java:125)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:157)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:375)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2415)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

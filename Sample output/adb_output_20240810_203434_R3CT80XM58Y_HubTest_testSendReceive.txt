@@ -1,0 +1,470 @@
+INSTRUMENTATION_STATUS: class=com.blackberry.spl.functionaltest.test.specific.HubTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.blackberry.spl.functionaltest.test.specific.HubTest:
+INSTRUMENTATION_STATUS: test=testSendReceive
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.blackberry.spl.functionaltest.test.specific.HubTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=com.blackberry.spl.functionaltest.support.VerificationError: UI object not found: UiSelector[CLASS=android.webkit.WebView, SCROLLABLE=true, PACKAGE NAME=com.blackberry.hub]
+com.blackberry.hub|android.widget.FrameLayout||
+. com.blackberry.hub|android.widget.FrameLayout||
+.   com.blackberry.hub|android.widget.FrameLayout||
+.     com.blackberry.hub:id/action_bar_root|android.widget.LinearLayout||
+.       android:id/content|android.widget.FrameLayout||
+.         com.blackberry.hub|android.widget.RelativeLayout||
+.           com.blackberry.hub:id/swipe_email_toolbar|android.view.ViewGroup||
+.             com.blackberry.hub|android.widget.ImageButton||Navigate up
+.             com.blackberry.hub|android.widget.FrameLayout||
+.               com.blackberry.hub|android.widget.LinearLayout||
+.                 com.blackberry.hub|android.widget.TextView|svvtest05@secusmart.de|
+.             com.blackberry.hub|androidx.appcompat.widget.g0||
+.               com.blackberry.hub|android.widget.TextView||File
+.               com.blackberry.hub|android.widget.TextView||Delete
+.               com.blackberry.hub|android.widget.ImageView||More options
+.           com.blackberry.hub:id/container|android.widget.FrameLayout||
+.             com.blackberry.hub:id/conversation_pager|androidx.viewpager.widget.ViewPager||
+.               com.blackberry.hub|android.widget.RelativeLayout||
+.                 com.blackberry.hub:id/scroll_indicators|android.view.View||
+.                 com.blackberry.hub:id/inline_conversation_container|android.view.ViewGroup||
+.                   com.blackberry.hub:id/conversation_header|android.widget.LinearLayout||
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/conversation_subject|android.widget.TextView|test1723314681317|
+.                   com.blackberry.hub|android.widget.GridLayout||
+.                     com.blackberry.hub|android.view.View||
+.                     com.blackberry.hub:id/upper_header|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/photo|android.widget.QuickContactBadge||Show contact information for svvtest05
+.                       com.blackberry.hub:id/title_container|android.widget.RelativeLayout||
+.                         com.blackberry.hub:id/subjectDateContainer|android.view.ViewGroup||
+.                           com.blackberry.hub:id/sender_name|android.widget.TextView|svvtest05|
+.                         com.blackberry.hub:id/send_date|android.widget.TextView|Today, 20:31|
+.                         com.blackberry.hub|android.widget.LinearLayout||
+.                           com.blackberry.hub|android.widget.LinearLayout||
+.                         com.blackberry.hub:id/recipients_count_label|android.widget.TextView|1 recipient|
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                     com.blackberry.hub:id/expandable_header_content|android.widget.LinearLayout||
+.                   com.blackberry.hub|android.widget.LinearLayout||
+.                   com.blackberry.hub|android.view.View||
+.                   com.blackberry.hub|android.webkit.WebView||
+.                     com.blackberry.hub|android.webkit.WebView||
+.                       ssc2353|android.view.View||
+.                         response_container_BBPPID|android.view.View||
+.                           com.blackberry.hub|android.widget.TextView|test automation email|
+.                           blackberry_signature_BBPPID|android.widget.TextView||
+.                       conversation-footer|android.widget.TextView||
+.                   com.blackberry.hub:id/card_layout|android.widget.FrameLayout||
+.                 com.blackberry.hub:id/conversation_actionDrawerContainer|android.widget.FrameLayout||
+.                   com.blackberry.hub|android.view.View||
+.                   com.blackberry.hub:id/drawerBarAndDrawerLayout|android.widget.FrameLayout||
+.                     com.blackberry.hub|androidx.recyclerview.widget.RecyclerView||
+.                       com.blackberry.hub:drawable/design_fab_background|android.widget.LinearLayout||Reply
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/control_background_40dp_material|android.widget.LinearLayout||Reply all
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/commonui_ic_save_grey600_18dp|android.widget.LinearLayout||Forward
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                     com.blackberry.hub:id/actionDrawerScrollView|android.widget.ScrollView||
+.                       com.blackberry.hub:id/actionDrawerFrameLayout|android.widget.FrameLayout||
+.                 com.blackberry.hub:id/conversation_view_snackbar|android.widget.FrameLayout||
+.               com.blackberry.hub|android.widget.RelativeLayout||
+.                 com.blackberry.hub:id/scroll_indicators|android.view.View||
+.                 com.blackberry.hub:id/inline_conversation_container|android.view.ViewGroup||
+.                   com.blackberry.hub|android.widget.LinearLayout||
+.                   com.blackberry.hub|android.webkit.WebView||
+.                     com.blackberry.hub|android.webkit.WebView||
+.                       ssc2352|android.view.View||
+.                         response_container_BBPPID|android.view.View||
+.                           com.blackberry.hub|android.widget.TextView|test automation email|
+.                           blackberry_signature_BBPPID|android.widget.TextView||
+.                       conversation-footer|android.widget.TextView||
+.                   com.blackberry.hub:id/conversation_header|android.widget.LinearLayout||
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/conversation_subject|android.widget.TextView|test1723314681317|
+.                   com.blackberry.hub:id/card_layout|android.widget.FrameLayout||
+.                   com.blackberry.hub|android.widget.GridLayout||
+.                     com.blackberry.hub|android.view.View||
+.                     com.blackberry.hub:id/upper_header|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/state_icon|android.widget.ImageView||
+.                       com.blackberry.hub:id/title_container|android.widget.RelativeLayout||
+.                         com.blackberry.hub:id/subjectDateContainer|android.view.ViewGroup||
+.                           com.blackberry.hub:id/sender_name|android.widget.TextView|svvtest05|
+.                         com.blackberry.hub:id/send_date|android.widget.TextView|Today, 20:31|
+.                         com.blackberry.hub|android.widget.LinearLayout||
+.                           com.blackberry.hub|android.widget.LinearLayout||
+.                         com.blackberry.hub:id/recipients_count_label|android.widget.TextView|1 recipient|
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                     com.blackberry.hub:id/expandable_header_content|android.widget.LinearLayout||
+.                 com.blackberry.hub:id/conversation_actionDrawerContainer|android.widget.FrameLayout||
+.                   com.blackberry.hub|android.view.View||
+.                   com.blackberry.hub:id/drawerBarAndDrawerLayout|android.widget.FrameLayout||
+.                     com.blackberry.hub|androidx.recyclerview.widget.RecyclerView||
+.                       com.blackberry.hub:drawable/design_fab_background|android.widget.LinearLayout||Reply
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/control_background_40dp_material|android.widget.LinearLayout||Reply all
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/commonui_ic_save_grey600_18dp|android.widget.LinearLayout||Forward
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                     com.blackberry.hub:id/actionDrawerScrollView|android.widget.ScrollView||
+.                       com.blackberry.hub:id/actionDrawerFrameLayout|android.widget.FrameLayout||
+.                 com.blackberry.hub:id/conversation_view_snackbar|android.widget.FrameLayout||
+. android:id/navigationBarBackground|android.view.View||
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:216)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:220)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newNotFoundVerificationError(UiUtil.java:229)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.getScrollable(UiUtil.java:576)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.getScrollable(UiUtil.java:605)
+	at com.blackberry.spl.functionaltest.support.specific.HubViewEmailUi.verifyContent(HubViewEmailUi.java:53)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.verifyEmailPage(HubUi.java:219)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.verifyEmailPage(HubUi.java:288)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.testSendReceive(HubTest.java:70)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:157)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:375)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2415)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testSendReceive(com.blackberry.spl.functionaltest.test.specific.HubTest):
+com.blackberry.spl.functionaltest.support.VerificationError: UI object not found: UiSelector[CLASS=android.webkit.WebView, SCROLLABLE=true, PACKAGE NAME=com.blackberry.hub]
+com.blackberry.hub|android.widget.FrameLayout||
+. com.blackberry.hub|android.widget.FrameLayout||
+.   com.blackberry.hub|android.widget.FrameLayout||
+.     com.blackberry.hub:id/action_bar_root|android.widget.LinearLayout||
+.       android:id/content|android.widget.FrameLayout||
+.         com.blackberry.hub|android.widget.RelativeLayout||
+.           com.blackberry.hub:id/swipe_email_toolbar|android.view.ViewGroup||
+.             com.blackberry.hub|android.widget.ImageButton||Navigate up
+.             com.blackberry.hub|android.widget.FrameLayout||
+.               com.blackberry.hub|android.widget.LinearLayout||
+.                 com.blackberry.hub|android.widget.TextView|svvtest05@secusmart.de|
+.             com.blackberry.hub|androidx.appcompat.widget.g0||
+.               com.blackberry.hub|android.widget.TextView||File
+.               com.blackberry.hub|android.widget.TextView||Delete
+.               com.blackberry.hub|android.widget.ImageView||More options
+.           com.blackberry.hub:id/container|android.widget.FrameLayout||
+.             com.blackberry.hub:id/conversation_pager|androidx.viewpager.widget.ViewPager||
+.               com.blackberry.hub|android.widget.RelativeLayout||
+.                 com.blackberry.hub:id/scroll_indicators|android.view.View||
+.                 com.blackberry.hub:id/inline_conversation_container|android.view.ViewGroup||
+.                   com.blackberry.hub:id/conversation_header|android.widget.LinearLayout||
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/conversation_subject|android.widget.TextView|test1723314681317|
+.                   com.blackberry.hub|android.widget.GridLayout||
+.                     com.blackberry.hub|android.view.View||
+.                     com.blackberry.hub:id/upper_header|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/photo|android.widget.QuickContactBadge||Show contact information for svvtest05
+.                       com.blackberry.hub:id/title_container|android.widget.RelativeLayout||
+.                         com.blackberry.hub:id/subjectDateContainer|android.view.ViewGroup||
+.                           com.blackberry.hub:id/sender_name|android.widget.TextView|svvtest05|
+.                         com.blackberry.hub:id/send_date|android.widget.TextView|Today, 20:31|
+.                         com.blackberry.hub|android.widget.LinearLayout||
+.                           com.blackberry.hub|android.widget.LinearLayout||
+.                         com.blackberry.hub:id/recipients_count_label|android.widget.TextView|1 recipient|
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                     com.blackberry.hub:id/expandable_header_content|android.widget.LinearLayout||
+.                   com.blackberry.hub|android.widget.LinearLayout||
+.                   com.blackberry.hub|android.view.View||
+.                   com.blackberry.hub|android.webkit.WebView||
+.                     com.blackberry.hub|android.webkit.WebView||
+.                       ssc2353|android.view.View||
+.                         response_container_BBPPID|android.view.View||
+.                           com.blackberry.hub|android.widget.TextView|test automation email|
+.                           blackberry_signature_BBPPID|android.widget.TextView||
+.                       conversation-footer|android.widget.TextView||
+.                   com.blackberry.hub:id/card_layout|android.widget.FrameLayout||
+.                 com.blackberry.hub:id/conversation_actionDrawerContainer|android.widget.FrameLayout||
+.                   com.blackberry.hub|android.view.View||
+.                   com.blackberry.hub:id/drawerBarAndDrawerLayout|android.widget.FrameLayout||
+.                     com.blackberry.hub|androidx.recyclerview.widget.RecyclerView||
+.                       com.blackberry.hub:drawable/design_fab_background|android.widget.LinearLayout||Reply
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/control_background_40dp_material|android.widget.LinearLayout||Reply all
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/commonui_ic_save_grey600_18dp|android.widget.LinearLayout||Forward
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                     com.blackberry.hub:id/actionDrawerScrollView|android.widget.ScrollView||
+.                       com.blackberry.hub:id/actionDrawerFrameLayout|android.widget.FrameLayout||
+.                 com.blackberry.hub:id/conversation_view_snackbar|android.widget.FrameLayout||
+.               com.blackberry.hub|android.widget.RelativeLayout||
+.                 com.blackberry.hub:id/scroll_indicators|android.view.View||
+.                 com.blackberry.hub:id/inline_conversation_container|android.view.ViewGroup||
+.                   com.blackberry.hub|android.widget.LinearLayout||
+.                   com.blackberry.hub|android.webkit.WebView||
+.                     com.blackberry.hub|android.webkit.WebView||
+.                       ssc2352|android.view.View||
+.                         response_container_BBPPID|android.view.View||
+.                           com.blackberry.hub|android.widget.TextView|test automation email|
+.                           blackberry_signature_BBPPID|android.widget.TextView||
+.                       conversation-footer|android.widget.TextView||
+.                   com.blackberry.hub:id/conversation_header|android.widget.LinearLayout||
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/conversation_subject|android.widget.TextView|test1723314681317|
+.                   com.blackberry.hub:id/card_layout|android.widget.FrameLayout||
+.                   com.blackberry.hub|android.widget.GridLayout||
+.                     com.blackberry.hub|android.view.View||
+.                     com.blackberry.hub:id/upper_header|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/state_icon|android.widget.ImageView||
+.                       com.blackberry.hub:id/title_container|android.widget.RelativeLayout||
+.                         com.blackberry.hub:id/subjectDateContainer|android.view.ViewGroup||
+.                           com.blackberry.hub:id/sender_name|android.widget.TextView|svvtest05|
+.                         com.blackberry.hub:id/send_date|android.widget.TextView|Today, 20:31|
+.                         com.blackberry.hub|android.widget.LinearLayout||
+.                           com.blackberry.hub|android.widget.LinearLayout||
+.                         com.blackberry.hub:id/recipients_count_label|android.widget.TextView|1 recipient|
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                     com.blackberry.hub:id/expandable_header_content|android.widget.LinearLayout||
+.                 com.blackberry.hub:id/conversation_actionDrawerContainer|android.widget.FrameLayout||
+.                   com.blackberry.hub|android.view.View||
+.                   com.blackberry.hub:id/drawerBarAndDrawerLayout|android.widget.FrameLayout||
+.                     com.blackberry.hub|androidx.recyclerview.widget.RecyclerView||
+.                       com.blackberry.hub:drawable/design_fab_background|android.widget.LinearLayout||Reply
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/control_background_40dp_material|android.widget.LinearLayout||Reply all
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/commonui_ic_save_grey600_18dp|android.widget.LinearLayout||Forward
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                     com.blackberry.hub:id/actionDrawerScrollView|android.widget.ScrollView||
+.                       com.blackberry.hub:id/actionDrawerFrameLayout|android.widget.FrameLayout||
+.                 com.blackberry.hub:id/conversation_view_snackbar|android.widget.FrameLayout||
+. android:id/navigationBarBackground|android.view.View||
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:216)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:220)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newNotFoundVerificationError(UiUtil.java:229)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.getScrollable(UiUtil.java:576)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.getScrollable(UiUtil.java:605)
+	at com.blackberry.spl.functionaltest.support.specific.HubViewEmailUi.verifyContent(HubViewEmailUi.java:53)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.verifyEmailPage(HubUi.java:219)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.verifyEmailPage(HubUi.java:288)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.testSendReceive(HubTest.java:70)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:157)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:375)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2415)
+
+INSTRUMENTATION_STATUS: test=testSendReceive
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 74.889
+There was 1 failure:
+1) testSendReceive(com.blackberry.spl.functionaltest.test.specific.HubTest)
+com.blackberry.spl.functionaltest.support.VerificationError: UI object not found: UiSelector[CLASS=android.webkit.WebView, SCROLLABLE=true, PACKAGE NAME=com.blackberry.hub]
+com.blackberry.hub|android.widget.FrameLayout||
+. com.blackberry.hub|android.widget.FrameLayout||
+.   com.blackberry.hub|android.widget.FrameLayout||
+.     com.blackberry.hub:id/action_bar_root|android.widget.LinearLayout||
+.       android:id/content|android.widget.FrameLayout||
+.         com.blackberry.hub|android.widget.RelativeLayout||
+.           com.blackberry.hub:id/swipe_email_toolbar|android.view.ViewGroup||
+.             com.blackberry.hub|android.widget.ImageButton||Navigate up
+.             com.blackberry.hub|android.widget.FrameLayout||
+.               com.blackberry.hub|android.widget.LinearLayout||
+.                 com.blackberry.hub|android.widget.TextView|svvtest05@secusmart.de|
+.             com.blackberry.hub|androidx.appcompat.widget.g0||
+.               com.blackberry.hub|android.widget.TextView||File
+.               com.blackberry.hub|android.widget.TextView||Delete
+.               com.blackberry.hub|android.widget.ImageView||More options
+.           com.blackberry.hub:id/container|android.widget.FrameLayout||
+.             com.blackberry.hub:id/conversation_pager|androidx.viewpager.widget.ViewPager||
+.               com.blackberry.hub|android.widget.RelativeLayout||
+.                 com.blackberry.hub:id/scroll_indicators|android.view.View||
+.                 com.blackberry.hub:id/inline_conversation_container|android.view.ViewGroup||
+.                   com.blackberry.hub:id/conversation_header|android.widget.LinearLayout||
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/conversation_subject|android.widget.TextView|test1723314681317|
+.                   com.blackberry.hub|android.widget.GridLayout||
+.                     com.blackberry.hub|android.view.View||
+.                     com.blackberry.hub:id/upper_header|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/photo|android.widget.QuickContactBadge||Show contact information for svvtest05
+.                       com.blackberry.hub:id/title_container|android.widget.RelativeLayout||
+.                         com.blackberry.hub:id/subjectDateContainer|android.view.ViewGroup||
+.                           com.blackberry.hub:id/sender_name|android.widget.TextView|svvtest05|
+.                         com.blackberry.hub:id/send_date|android.widget.TextView|Today, 20:31|
+.                         com.blackberry.hub|android.widget.LinearLayout||
+.                           com.blackberry.hub|android.widget.LinearLayout||
+.                         com.blackberry.hub:id/recipients_count_label|android.widget.TextView|1 recipient|
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                     com.blackberry.hub:id/expandable_header_content|android.widget.LinearLayout||
+.                   com.blackberry.hub|android.widget.LinearLayout||
+.                   com.blackberry.hub|android.view.View||
+.                   com.blackberry.hub|android.webkit.WebView||
+.                     com.blackberry.hub|android.webkit.WebView||
+.                       ssc2353|android.view.View||
+.                         response_container_BBPPID|android.view.View||
+.                           com.blackberry.hub|android.widget.TextView|test automation email|
+.                           blackberry_signature_BBPPID|android.widget.TextView||
+.                       conversation-footer|android.widget.TextView||
+.                   com.blackberry.hub:id/card_layout|android.widget.FrameLayout||
+.                 com.blackberry.hub:id/conversation_actionDrawerContainer|android.widget.FrameLayout||
+.                   com.blackberry.hub|android.view.View||
+.                   com.blackberry.hub:id/drawerBarAndDrawerLayout|android.widget.FrameLayout||
+.                     com.blackberry.hub|androidx.recyclerview.widget.RecyclerView||
+.                       com.blackberry.hub:drawable/design_fab_background|android.widget.LinearLayout||Reply
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/control_background_40dp_material|android.widget.LinearLayout||Reply all
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/commonui_ic_save_grey600_18dp|android.widget.LinearLayout||Forward
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                     com.blackberry.hub:id/actionDrawerScrollView|android.widget.ScrollView||
+.                       com.blackberry.hub:id/actionDrawerFrameLayout|android.widget.FrameLayout||
+.                 com.blackberry.hub:id/conversation_view_snackbar|android.widget.FrameLayout||
+.               com.blackberry.hub|android.widget.RelativeLayout||
+.                 com.blackberry.hub:id/scroll_indicators|android.view.View||
+.                 com.blackberry.hub:id/inline_conversation_container|android.view.ViewGroup||
+.                   com.blackberry.hub|android.widget.LinearLayout||
+.                   com.blackberry.hub|android.webkit.WebView||
+.                     com.blackberry.hub|android.webkit.WebView||
+.                       ssc2352|android.view.View||
+.                         response_container_BBPPID|android.view.View||
+.                           com.blackberry.hub|android.widget.TextView|test automation email|
+.                           blackberry_signature_BBPPID|android.widget.TextView||
+.                       conversation-footer|android.widget.TextView||
+.                   com.blackberry.hub:id/conversation_header|android.widget.LinearLayout||
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/conversation_subject|android.widget.TextView|test1723314681317|
+.                   com.blackberry.hub:id/card_layout|android.widget.FrameLayout||
+.                   com.blackberry.hub|android.widget.GridLayout||
+.                     com.blackberry.hub|android.view.View||
+.                     com.blackberry.hub:id/upper_header|android.widget.LinearLayout||
+.                       com.blackberry.hub:id/state_icon|android.widget.ImageView||
+.                       com.blackberry.hub:id/title_container|android.widget.RelativeLayout||
+.                         com.blackberry.hub:id/subjectDateContainer|android.view.ViewGroup||
+.                           com.blackberry.hub:id/sender_name|android.widget.TextView|svvtest05|
+.                         com.blackberry.hub:id/send_date|android.widget.TextView|Today, 20:31|
+.                         com.blackberry.hub|android.widget.LinearLayout||
+.                           com.blackberry.hub|android.widget.LinearLayout||
+.                         com.blackberry.hub:id/recipients_count_label|android.widget.TextView|1 recipient|
+.                     com.blackberry.hub|android.widget.LinearLayout||
+.                     com.blackberry.hub:id/expandable_header_content|android.widget.LinearLayout||
+.                 com.blackberry.hub:id/conversation_actionDrawerContainer|android.widget.FrameLayout||
+.                   com.blackberry.hub|android.view.View||
+.                   com.blackberry.hub:id/drawerBarAndDrawerLayout|android.widget.FrameLayout||
+.                     com.blackberry.hub|androidx.recyclerview.widget.RecyclerView||
+.                       com.blackberry.hub:drawable/design_fab_background|android.widget.LinearLayout||Reply
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/control_background_40dp_material|android.widget.LinearLayout||Reply all
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                       com.blackberry.hub:drawable/commonui_ic_save_grey600_18dp|android.widget.LinearLayout||Forward
+.                         com.blackberry.hub:id/action_button_container|android.widget.RelativeLayout||
+.                           com.blackberry.hub:id/action_drawer_button_image|android.widget.ImageButton||
+.                     com.blackberry.hub:id/actionDrawerScrollView|android.widget.ScrollView||
+.                       com.blackberry.hub:id/actionDrawerFrameLayout|android.widget.FrameLayout||
+.                 com.blackberry.hub:id/conversation_view_snackbar|android.widget.FrameLayout||
+. android:id/navigationBarBackground|android.view.View||
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:216)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:220)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newNotFoundVerificationError(UiUtil.java:229)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.getScrollable(UiUtil.java:576)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.getScrollable(UiUtil.java:605)
+	at com.blackberry.spl.functionaltest.support.specific.HubViewEmailUi.verifyContent(HubViewEmailUi.java:53)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.verifyEmailPage(HubUi.java:219)
+	at com.blackberry.spl.functionaltest.support.specific.HubUi.verifyEmailPage(HubUi.java:288)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.testSendReceive(HubTest.java:70)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:157)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:375)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2415)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

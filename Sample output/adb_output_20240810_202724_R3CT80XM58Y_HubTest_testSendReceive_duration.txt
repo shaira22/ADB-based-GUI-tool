@@ -1,0 +1,221 @@
+INSTRUMENTATION_STATUS: class=com.blackberry.spl.functionaltest.test.specific.HubTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.blackberry.spl.functionaltest.test.specific.HubTest:
+INSTRUMENTATION_STATUS: test=testSendReceive_duration
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.blackberry.spl.functionaltest.test.specific.HubTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=com.blackberry.spl.functionaltest.support.VerificationError: UI object not found: Setup Complete page
+com.sec.android.app.launcher|android.widget.FrameLayout||
+. com.sec.android.app.launcher|android.view.View||
+. com.sec.android.app.launcher|android.widget.LinearLayout||
+.   android:id/content|android.widget.FrameLayout||
+.     com.sec.android.app.launcher|android.view.ViewGroup||
+. com.sec.android.app.launcher:id/home_screen|android.widget.FrameLayout||
+.   com.sec.android.app.launcher:id/workspace_pot_view|android.widget.FrameLayout||
+.     com.sec.android.app.launcher:id/workspace_fast_recycler_view|android.view.ViewGroup||
+.       com.sec.android.app.launcher|android.widget.LinearLayout||Page 1 of 1
+.         com.sec.android.app.launcher|android.widget.FrameLayout||
+.         com.sec.android.app.launcher:id/wsCellLayout|android.view.ViewGroup||
+.           com.sec.android.app.launcher:id/icon|android.widget.TextView|Play Store|Play Store
+.       com.sec.android.app.launcher|android.widget.LinearLayout||Page 2 of 2
+.         com.sec.android.app.launcher|android.widget.FrameLayout||
+.         com.sec.android.app.launcher:id/wsCellLayout|android.view.ViewGroup||
+.     com.sec.android.app.launcher:id/workspace_page_indicator|android.widget.FrameLayout||
+.       com.sec.android.app.launcher|android.widget.LinearLayout||
+.         com.sec.android.app.launcher|android.widget.FrameLayout||Page 1 of 2 Selected, Default page
+.           com.sec.android.app.launcher:id/icon|android.widget.ImageView||
+.         com.sec.android.app.launcher|android.widget.FrameLayout||Page 2 of 2 Not selected
+.           com.sec.android.app.launcher:id/icon|android.widget.ImageView||
+.   com.sec.android.app.launcher:id/hotseat_container|android.widget.LinearLayout||
+.     com.sec.android.app.launcher:id/hotseat_layout|android.view.ViewGroup||
+.       com.sec.android.app.launcher:id/icon|android.widget.TextView|Phone|Phone
+.       com.sec.android.app.launcher:id/icon|android.widget.TextView|Messages|Messages
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:216)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:220)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newNotFoundVerificationError(UiUtil.java:229)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.verifyExists(UiUtil.java:261)
+	at com.blackberry.spl.functionaltest.support.specific.BbciUi.addAccount(BbciUi.java:194)
+	at com.blackberry.spl.functionaltest.support.AutomationSetup.ensureAccount(AutomationSetup.java:296)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.accountSetup(HubTest.java:43)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.testSendReceive_duration(HubTest.java:86)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:157)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:375)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2415)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testSendReceive_duration(com.blackberry.spl.functionaltest.test.specific.HubTest):
+com.blackberry.spl.functionaltest.support.VerificationError: UI object not found: Setup Complete page
+com.sec.android.app.launcher|android.widget.FrameLayout||
+. com.sec.android.app.launcher|android.view.View||
+. com.sec.android.app.launcher|android.widget.LinearLayout||
+.   android:id/content|android.widget.FrameLayout||
+.     com.sec.android.app.launcher|android.view.ViewGroup||
+. com.sec.android.app.launcher:id/home_screen|android.widget.FrameLayout||
+.   com.sec.android.app.launcher:id/workspace_pot_view|android.widget.FrameLayout||
+.     com.sec.android.app.launcher:id/workspace_fast_recycler_view|android.view.ViewGroup||
+.       com.sec.android.app.launcher|android.widget.LinearLayout||Page 1 of 1
+.         com.sec.android.app.launcher|android.widget.FrameLayout||
+.         com.sec.android.app.launcher:id/wsCellLayout|android.view.ViewGroup||
+.           com.sec.android.app.launcher:id/icon|android.widget.TextView|Play Store|Play Store
+.       com.sec.android.app.launcher|android.widget.LinearLayout||Page 2 of 2
+.         com.sec.android.app.launcher|android.widget.FrameLayout||
+.         com.sec.android.app.launcher:id/wsCellLayout|android.view.ViewGroup||
+.     com.sec.android.app.launcher:id/workspace_page_indicator|android.widget.FrameLayout||
+.       com.sec.android.app.launcher|android.widget.LinearLayout||
+.         com.sec.android.app.launcher|android.widget.FrameLayout||Page 1 of 2 Selected, Default page
+.           com.sec.android.app.launcher:id/icon|android.widget.ImageView||
+.         com.sec.android.app.launcher|android.widget.FrameLayout||Page 2 of 2 Not selected
+.           com.sec.android.app.launcher:id/icon|android.widget.ImageView||
+.   com.sec.android.app.launcher:id/hotseat_container|android.widget.LinearLayout||
+.     com.sec.android.app.launcher:id/hotseat_layout|android.view.ViewGroup||
+.       com.sec.android.app.launcher:id/icon|android.widget.TextView|Phone|Phone
+.       com.sec.android.app.launcher:id/icon|android.widget.TextView|Messages|Messages
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:216)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:220)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newNotFoundVerificationError(UiUtil.java:229)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.verifyExists(UiUtil.java:261)
+	at com.blackberry.spl.functionaltest.support.specific.BbciUi.addAccount(BbciUi.java:194)
+	at com.blackberry.spl.functionaltest.support.AutomationSetup.ensureAccount(AutomationSetup.java:296)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.accountSetup(HubTest.java:43)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.testSendReceive_duration(HubTest.java:86)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:157)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:375)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2415)
+
+INSTRUMENTATION_STATUS: test=testSendReceive_duration
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 117.617
+There was 1 failure:
+1) testSendReceive_duration(com.blackberry.spl.functionaltest.test.specific.HubTest)
+com.blackberry.spl.functionaltest.support.VerificationError: UI object not found: Setup Complete page
+com.sec.android.app.launcher|android.widget.FrameLayout||
+. com.sec.android.app.launcher|android.view.View||
+. com.sec.android.app.launcher|android.widget.LinearLayout||
+.   android:id/content|android.widget.FrameLayout||
+.     com.sec.android.app.launcher|android.view.ViewGroup||
+. com.sec.android.app.launcher:id/home_screen|android.widget.FrameLayout||
+.   com.sec.android.app.launcher:id/workspace_pot_view|android.widget.FrameLayout||
+.     com.sec.android.app.launcher:id/workspace_fast_recycler_view|android.view.ViewGroup||
+.       com.sec.android.app.launcher|android.widget.LinearLayout||Page 1 of 1
+.         com.sec.android.app.launcher|android.widget.FrameLayout||
+.         com.sec.android.app.launcher:id/wsCellLayout|android.view.ViewGroup||
+.           com.sec.android.app.launcher:id/icon|android.widget.TextView|Play Store|Play Store
+.       com.sec.android.app.launcher|android.widget.LinearLayout||Page 2 of 2
+.         com.sec.android.app.launcher|android.widget.FrameLayout||
+.         com.sec.android.app.launcher:id/wsCellLayout|android.view.ViewGroup||
+.     com.sec.android.app.launcher:id/workspace_page_indicator|android.widget.FrameLayout||
+.       com.sec.android.app.launcher|android.widget.LinearLayout||
+.         com.sec.android.app.launcher|android.widget.FrameLayout||Page 1 of 2 Selected, Default page
+.           com.sec.android.app.launcher:id/icon|android.widget.ImageView||
+.         com.sec.android.app.launcher|android.widget.FrameLayout||Page 2 of 2 Not selected
+.           com.sec.android.app.launcher:id/icon|android.widget.ImageView||
+.   com.sec.android.app.launcher:id/hotseat_container|android.widget.LinearLayout||
+.     com.sec.android.app.launcher:id/hotseat_layout|android.view.ViewGroup||
+.       com.sec.android.app.launcher:id/icon|android.widget.TextView|Phone|Phone
+.       com.sec.android.app.launcher:id/icon|android.widget.TextView|Messages|Messages
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:216)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newVerificationError(UiUtil.java:220)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.newNotFoundVerificationError(UiUtil.java:229)
+	at com.blackberry.spl.functionaltest.utility.UiUtil.verifyExists(UiUtil.java:261)
+	at com.blackberry.spl.functionaltest.support.specific.BbciUi.addAccount(BbciUi.java:194)
+	at com.blackberry.spl.functionaltest.support.AutomationSetup.ensureAccount(AutomationSetup.java:296)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.accountSetup(HubTest.java:43)
+	at com.blackberry.spl.functionaltest.test.specific.HubTest.testSendReceive_duration(HubTest.java:86)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:157)
+	at com.blackberry.spl.functionaltest.classrunner.AutomationClassRunner.runChild(AutomationClassRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at android.support.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)
+	at android.support.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:375)
+	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2415)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
