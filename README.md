@@ -4,7 +4,6 @@ Some specific objectives and requirements like enhancing efficiency and accuracy
 
 The design of the tool was focused on solving key problems identified during the manual smoke testing phase. The design also aimed to create an intuitive interface that would be easy for testers to use. This is essential for minimizing learning effort and maximizing productivity. The GUI worked as an interface to employees while the back end accomplished runs of ADB commands and logged results.
 
-
 # Components of the ADBbasedGUItool:
 
 User initiates a test through the GUI Component in the beginning. Then GUI Component sends the selected command to the Command Processor. Then Command Processor creates the corresponding ADB command and the ADB Interface sends the command to the Android Device. Android Device executes the command successfully and returns the result. Then ADB Interface relays the result back to the Command Processor and Command Processor updates the GUI Component with the result. Finally, the results are sent to the Logger, and it records the successful execution for later analysis.
