@@ -8,7 +8,7 @@ The design of the tool was focused on solving key problems identified during the
 Device type: Samsung Device
 
 
-Android version: 12,13,14 are supported
+Android version: 13 & 14 are supported
 
 
 The device must be enrolled with Real life user profile in EASE05 server
@@ -26,3 +26,13 @@ Step 3: Connect the device with PC with wire or wirelessly with Wifi.
 Step 4: Run the script and check the device availability
 
 Step 5: This UI window should appear after running the script
+
+<img width="513" alt="1" src="https://github.com/user-attachments/assets/148ff32f-f6a9-4490-8184-bb4e0d477353">
+
+
+Step 6: Now, we can select which test we want to execute.
+
+<img width="513" alt="4" src="https://github.com/user-attachments/assets/29a98253-4f77-4c08-8936-9336f448f424">
+
+
+
